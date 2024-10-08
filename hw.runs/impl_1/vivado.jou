@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Aug 26 13:36:44 2022
+# Process ID: 11068
+# Current directory: E:/UpgradeProjects/Cora-Z7/hw/proj/hw.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: E:/UpgradeProjects/Cora-Z7/hw/proj/hw.runs/impl_1/top.vdi
+# Journal file: E:/UpgradeProjects/Cora-Z7/hw/proj/hw.runs/impl_1\vivado.jou
+# Running On: ASOPTEREAN, OS: Windows, CPU Frequency: 3492 MHz, CPU Physical cores: 6, Host memory: 34301 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

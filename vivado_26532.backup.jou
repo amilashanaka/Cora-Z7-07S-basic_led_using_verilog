@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Fri Jul  5 13:47:22 2024
+# Process ID: 26532
+# Current directory: C:/Projects/ERN24004/digilent/07-03-2024/TestingProgram/hw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9100 C:\Projects\ERN24004\digilent\07-03-2024\TestingProgram\hw\hw.xpr
+# Log file: C:/Projects/ERN24004/digilent/07-03-2024/TestingProgram/hw/vivado.log
+# Journal file: C:/Projects/ERN24004/digilent/07-03-2024/TestingProgram/hw\vivado.jou
+# Running On: DonGun, OS: Windows, CPU Frequency: 3418 MHz, CPU Physical cores: 16, Host memory: 34124 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Projects/ERN24004/digilent/07-03-2024/TestingProgram/hw/hw.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Projects/ERN24004/digilent/07-03-2024/TestingProgram/hw/hw.runs/impl_1/top.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Projects/ERN24004/digilent/07-03-2024/TestingProgram/hw/hw.runs/impl_1/top.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+close_hw_manager

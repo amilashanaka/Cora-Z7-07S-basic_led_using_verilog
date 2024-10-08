@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Aug 26 13:33:00 2022
+# Process ID: 1644
+# Current directory: C:/Users/asoptere/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19460
+# Log file: C:/Users/asoptere/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/asoptere/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: ASOPTEREAN, OS: Windows, CPU Frequency: 3492 MHz, CPU Physical cores: 6, Host memory: 34301 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/UpgradeProjects/Cora-Z7/hw/proj/hw.xpr
+update_compile_order -fileset sources_1
+source E:/UpgradeProjects/Cora-Z7/hw/scripts/checkin.tcl
+close_project
+source E:/UpgradeProjects/Cora-Z7/hw/scripts/checkout.tcl
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/UpgradeProjects/Cora-Z7/hw/proj/hw.runs/impl_1/top.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {E:/UpgradeProjects/Cora-Z7/hw/proj/hw.runs/impl_1/top.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+archive_project E:/UpgradeProjects/Archives/Cora-Z7/07S/Basic-IO/2022.1/Cora-Z7-07S-Basic-IO-hw.xpr.zip -temp_dir C:/Users/asoptere/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1644-ASOPTEREAN -force -include_local_ip_cache

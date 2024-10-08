@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado Lab Edition v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# 
+# 
+# Start of session at: Fri Mar 15 10:14:37 2024
+# Process ID: 16296
+# Current directory: Y:/Design/Digital Filter/Xilinx/07-03-2024/TestingProgram/hw/hw.hw
+# Command line: vivado_lab.exe -gui_launcher_event rodinguilauncherevent14796 Y:\Design\Digital Filter\Xilinx\07-03-2024\TestingProgram\hw\hw.hw\hw.lpr
+# Log file: Y:/Design/Digital Filter/Xilinx/07-03-2024/TestingProgram/hw/hw.hw/vivado_lab.log
+# Journal file: Y:/Design/Digital Filter/Xilinx/07-03-2024/TestingProgram/hw/hw.hw\vivado_lab.jou
+# Running On: DonG, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 17039 MB
+#-----------------------------------------------------------
+start_gui
+close_hw_manager
+open_project {Y:/Design/Digital Filter/Xilinx/07-03-2024/TestingProgram/hw/hw.hw/hw.lpr}

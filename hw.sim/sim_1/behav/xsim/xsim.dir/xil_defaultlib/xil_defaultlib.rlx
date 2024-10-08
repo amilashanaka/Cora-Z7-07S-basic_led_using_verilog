@@ -1,0 +1,8 @@
+0.7
+2020.2
+Sep  5 2024
+15:23:16
+C:/Projects/ERN24004/Projects/basic_led_using_verilog/hw.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Projects/ERN24004/Projects/basic_led_using_verilog/hw.srcs/sources_1/imports/hdl/debouncer.v,1709728078,verilog,,C:/Projects/ERN24004/Projects/basic_led_using_verilog/hw.srcs/sources_1/imports/hdl/pwm.v,,debouncer,,,,,,,,
+C:/Projects/ERN24004/Projects/basic_led_using_verilog/hw.srcs/sources_1/imports/hdl/pwm.v,1709728078,verilog,,C:/Projects/ERN24004/Projects/basic_led_using_verilog/hw.srcs/sources_1/imports/hdl/top.v,,pwm,,,,,,,,
+C:/Projects/ERN24004/Projects/basic_led_using_verilog/hw.srcs/sources_1/imports/hdl/top.v,1709728078,verilog,,,,top,,,,,,,,
